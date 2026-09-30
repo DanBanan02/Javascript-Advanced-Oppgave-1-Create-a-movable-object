@@ -1,5 +1,11 @@
 
 
+:root
+{
+    background-color: hsla(0, 0%, 0%, 0.925);
+
+}
+
 *
 {
     margin: 50;
@@ -34,9 +40,26 @@
     border-width: 2.5px;
     border-style: solid;
     border-radius: 60px;
-
-
+    
     position: absolute;
     top:0;
     right: 0;
 }
+
+#box:hover
+{
+    width: 3rem;
+    height: 3rem;
+    background-color: lch(42.09% 87.74 40 / 0.767);
+    color: #9c31ff;
+
+    border-color: rgba(0, 0, 0, 0.833);
+    border-width: 2.5px;
+    border-style: solid;
+    border-radius: 60px;
+    
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
