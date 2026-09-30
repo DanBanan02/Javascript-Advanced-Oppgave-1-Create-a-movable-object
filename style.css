@@ -4,6 +4,11 @@
 {
     background-color: hsla(0, 0%, 0%, 0.925);
 
+/*     border-color: #cd2929;
+    border-radius: 25px;
+    border-width: 5px;
+    border-style: solid; */
+
 }
 
 *
@@ -12,6 +17,21 @@
     padding: 50;
     box-sizing: border-box;
 
+}
+
+main
+{
+    border-color: hsl(198, 100%, 38%);
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 16px;
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .body
